@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Receipe } from './receipe.model';
 
 @Component({
   selector: 'app-receipes',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReceipesComponent implements OnInit {
 
-  
+  selectReceipe : Receipe
 
   constructor() { }
 
