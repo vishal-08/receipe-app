@@ -11,6 +11,7 @@ import { ReceipeDetailComponent } from './receipes/receipe-detail/receipe-detail
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
 import { ReceipeItemComponent } from './receipes/receipe-list/receipe-item/receipe-item.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ReceipeItemComponent } from './receipes/receipe-list/receipe-item/recei
     ReceipeDetailComponent,
     ShoppingListComponent,
     ShoppingListEditComponent,
-    ReceipeItemComponent
+    ReceipeItemComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
