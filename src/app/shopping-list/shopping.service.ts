@@ -22,5 +22,10 @@ export class ShoppingService {
     this.ingredientsChanged.emit(this.ingredients.slice())  //for showing changed arRAY
   }
 
+  addIngredient(ingredient: Ingredients[]){
+    this.ingredients.push(...ingredient)
+    this.ingredientsChanged.emit(this.ingredients.slice())
+  }
+
   constructor() { }
 }
